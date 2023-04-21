@@ -19,12 +19,14 @@ public class Student
     private String firstName;
     private String lastName;
     private int gradeLevel;
+    private int percent
     
-    public Student(String fName, String lName, int grade)
+    public Student(String fName, String lName, int grade , int thePercent)
     {
         firstName = fName;
         lastName = lName;
         gradeLevel = grade;
+        percent = thePercent;
     }
     
     public String toString()
